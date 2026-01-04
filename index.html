@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishakaraj Shanmugavel - Machine Learning Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Dynamic Background Container -->
+    <div class="dynamic-background" id="dynamicBg">
+        <div class="bg-layer bg-hero" data-section="hero"></div>
+        <div class="bg-layer bg-about" data-section="about"></div>
+        <div class="bg-layer bg-skills" data-section="skills"></div>
+        <div class="bg-layer bg-projects" data-section="projects"></div>
+        <div class="bg-layer bg-accomplishments" data-section="accomplishments"></div>
+        <div class="bg-layer bg-education" data-section="education"></div>
+        <div class="bg-layer bg-contact" data-section="contact"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Vishakaraj</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#accomplishments" class="nav-link">Accomplishments</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <span class="hero-name">Vishakaraj Shanmugavel</span>
+                </h1>
+                <h2 class="hero-subtitle">Machine Learning Engineer</h2>
+                <p class="hero-description">
+                    Machine Learning Engineer with 6+ years of experience building and deploying production-grade AI systems across 2D vision, 
+                    3D point cloud perception, and LLM-powered search and conversational systems for Architecture, Engineering and Construction (AEC) industries. 
+                    Proven track record of owning end-to-end ML pipelines in cloud and edge.
+                </p>
+                <div class="hero-contact">
+                    <a href="mailto:s.vishakaraj@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        s.vishakaraj@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/vishakaraj-shanmugavel/" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn Profile
+                    </a>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <img src="vishak-picture.png" alt="Vishakaraj Shanmugavel - Machine Learning Engineer" class="hero-photo">
+                    <div class="ml-animation">
+                        <div class="neural-network">
+                            <div class="node"></div>
+                            <div class="node"></div>
+                            <div class="node"></div>
+                            <div class="node"></div>
+                            <div class="connection"></div>
+                            <div class="connection"></div>
+                            <div class="connection"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-highlight">
+                        I'm a passionate Machine Learning Engineer with 6+ years of experience 
+                        building and deploying production-grade AI systems that transform complex research 
+                        into scalable solutions solving real-world problems in AEC industries.
+                    </p>
+                    <p>
+                        Currently at Trimble, Inc., I specialize in developing cutting-edge AI systems 
+                        spanning 2D image-based visual perception, 3D point cloud perception, and LLM-powered 
+                        applications. My work has directly impacted construction and infrastructure industries, 
+                        reducing manual processing times from hours to minutes and enabling intelligent 
+                        automation across diverse domains.
+                    </p>
+                    <p>
+                        I thrive on the challenge of bridging the gap between theoretical machine learning 
+                        and practical applications, particularly in domains requiring high accuracy, 
+                        robustness, and scalability. My expertise extends from traditional deep learning 
+                        to modern foundation models and agentic AI workflows.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>6+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2</h3>
+                        <p>US Patents</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1</h3>
+                        <p>First-Author Publication</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Conference Presentations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Languages & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Bash</span>
+                        <span>R</span>
+                        <span>Git</span>
+                        <span>Docker</span>
+                        <span>Podman</span>
+                        <span>SQL</span>
+                        <span>NoSQL (MongoDB)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Deep Learning & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>PyTorch</span>
+                        <span>TensorFlow</span>
+                        <span>Model Optimization</span>
+                        <span>Weights & Biases</span>
+                        <span>Neptune</span>
+                        <span>TensorBoard</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>LLM Systems and Agents</h3>
+                    <div class="skill-tags">
+                        <span>Prompt Engineering</span>
+                        <span>Prompt Caching</span>
+                        <span>Agentic Workflows</span>
+                        <span>LangChain/LangGraph</span>
+                        <span>Vision-Language Models</span>
+                        <span>FAISS</span>
+                        <span>ChromaDB</span>
+                        <span>LlamaIndex</span>
+                        <span>MCP</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Computer Vision & 3D Perception</h3>
+                    <div class="skill-tags">
+                        <span>Object Detection</span>
+                        <span>Semantic Segmentation</span>
+                        <span>Activity Recognition</span>
+                        <span>Tracking</span>
+                        <span>3D Point Cloud Processing</span>
+                        <span>Edge Inference</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud & Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span>AWS (EC2, ECS Fargate)</span>
+                        <span>Azure (VMs, Storage)</span>
+                        <span>Multi-GPU Training</span>
+                        <span>Edge Deployment</span>
+                        <span>Jetson Nano/Xavier</span>
+                        <span>Containerization</span>
+                        <span>Packaging</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Key Projects</h2>
+            <div class="company-attribution">
+                <div class="company-info">
+                    <div class="company-logo-text">TRIMBLE</div>
+                    <p class="company-tagline">Machine Learning Engineer | September 2019 - Present</p>
+                    <p class="company-description">
+                        Leading AI research and development across computer vision, 3D point cloud processing, and LLM applications at Trimble Inc., 
+                        delivering production-ready solutions that transform construction and infrastructure workflows.
+                    </p>
+                </div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-bg="tunnel">
+                    <div class="project-visual">
+                        <div class="project-bg-image tunnel-bg"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                    <h3>3D Point Cloud Perception & Segmentation</h3>
+                    <p>Developed and productionized deep learning models for semantic segmentation of 3D point clouds across diverse domains including construction sites, tunnels, indoor spaces, and forest environments. Trained convolutional-based models (ConvPoint, RandLA-Net) and transformer-based models (Point Transformer, SONATA). Released tunnel segmentation model in Trimble Business Center, reducing scan cleaning time from 30 to 3 minutes. First-author publication in Taylor & Francis presented at World Tunnel Congress 2025.</p>
+                    <div class="project-tech">
+                        <span>PyTorch</span>
+                        <span>Point Transformer</span>
+                        <span>ConvPoint</span>
+                        <span>RandLA-Net</span>
+                        <span>SONATA</span>
+                        <span>Python</span>
+                        <span>3D Point Cloud Processing</span>
+                        <span>Semantic Segmentation</span>
+                        <span>Multi-GPU Training</span>
+                        <span>Model Optimization</span>
+                        <span>Weights & Biases</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-bg="construction">
+                    <div class="project-visual">
+                        <div class="project-bg-image construction-bg"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                    </div>
+                    <h3>2D Image-Based Visual Perception</h3>
+                    <p>Developed deep learning models in TensorFlow for excavator activity recognition using sequence-based inputs to capture temporal context. Trained object detection and semantic segmentation models (U-Net, DeepLab) using TensorFlow and PyTorch to identify construction site entities with high precision. Performed model training on AWS EC2 (Tesla V100 GPUs), optimized inference pipelines, and benchmarked on Jetson edge devices with TensorRT. Worked with vision transformer models including CLIP, BLIP, DINO v2, and fine-tuned Grounding DINO.</p>
+                    <div class="project-tech">
+                        <span>TensorFlow</span>
+                        <span>PyTorch</span>
+                        <span>Object Detection</span>
+                        <span>Activity Recognition</span>
+                        <span>U-Net</span>
+                        <span>DeepLab</span>
+                        <span>TensorRT</span>
+                        <span>AWS EC2</span>
+                        <span>Tesla V100</span>
+                        <span>Jetson Nano/Xavier</span>
+                        <span>Python</span>
+                        <span>Computer Vision</span>
+                        <span>Edge Inference</span>
+                        <span>Sequence Modeling</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-bg="pointcloud">
+                    <div class="project-visual">
+                        <div class="project-bg-image pointcloud-bg"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <h3>Acquisition-Time Noise Removal from Point Clouds</h3>
+                    <p>Implemented deep learning algorithm to remove noise from point clouds during 3D scan capture, improving data fidelity for downstream segmentation. Filed and awarded US Patent on acquisition-time noise removal from 3D scanners.</p>
+                    <div class="project-tech">
+                        <span>Deep Learning</span>
+                        <span>PyTorch</span>
+                        <span>Real-time Processing</span>
+                        <span>3D Point Cloud Processing</span>
+                        <span>Python</span>
+                        <span>Edge Computing</span>
+                        <span>Noise Removal</span>
+                        <span>Patent Filing</span>
+                        <span>Acquisition Systems</span>
+                        <span>3D Scanners</span>
+                        <span>Data Fidelity</span>
+                        <span>Signal Processing</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-bg="llm">
+                    <div class="project-visual">
+                        <div class="project-bg-image llm-bg"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <h3>LLM Applications - 3D AI Search & Conversational System</h3>
+                    <p>Led the design and deployment of an LLM-powered 3D AI search and conversational system for BIM models (IFC, SketchUp, Revit, CAD) in Trimble Connect. Architected end-to-end data pipeline converting 3D models to structured JSON in MongoDB. Designed multi-stage LLM architecture using LangChain that decomposes user intent, generates optimized queries, and synthesizes grounded responses. Made model-selection tradeoffs combining reasoning-capable LLMs with lightweight LLMs to optimize latency and cost. Implemented prompt caching and conversation memory for multi-turn interactions while preventing hallucinations.</p>
+                    <div class="project-tech">
+                        <span>LangChain</span>
+                        <span>LangGraph</span>
+                        <span>MongoDB</span>
+                        <span>LLM Orchestration</span>
+                        <span>Prompt Caching</span>
+                        <span>Agentic Workflows</span>
+                        <span>FAISS</span>
+                        <span>ChromaDB</span>
+                        <span>LlamaIndex</span>
+                        <span>BIM Models</span>
+                        <span>IFC</span>
+                        <span>Natural Language</span>
+                        <span>Python</span>
+                        <span>Prompt Engineering</span>
+                        <span>Vision-Language Modeling</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-bg="segmentation">
+                    <div class="project-visual">
+                        <div class="project-bg-image segmentation-bg"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                    </div>
+                    <h3>Indoor/Outdoor 3D Point Cloud Segmentation</h3>
+                    <p>Implemented deep learning models to detect architectural and structural elements across indoor and outdoor construction environments. Supported site monitoring, progress tracking, and inventory mapping use cases. Received the Trimble Innovation Award for this work.</p>
+                    <div class="project-tech">
+                        <span>PyTorch</span>
+                        <span>TensorFlow</span>
+                        <span>Semantic Segmentation</span>
+                        <span>3D Point Cloud Processing</span>
+                        <span>Architectural Detection</span>
+                        <span>Structural Analysis</span>
+                        <span>Multi-Domain Training</span>
+                        <span>Python</span>
+                        <span>Computer Vision</span>
+                        <span>Construction AI</span>
+                        <span>Innovation Award</span>
+                        <span>Model Optimization</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-bg="bim">
+                    <div class="project-visual">
+                        <div class="project-bg-image bim-bg"></div>
+                        <div class="project-icon">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                    </div>
+                    <h3>SketchUp IFC Auto-Tagging</h3>
+                    <p>Developed point cloud segmentation model to automate classification and tagging of Industry Foundation Classes (IFC) components. Owned packaging and containerization for multi-platform deployment across Trimble Connect AI extensions, SketchUp Scan Essentials, and Hugging Face demos. Presented results at Trimble Dimensions 2024.</p>
+                    <div class="project-tech">
+                        <span>PyTorch</span>
+                        <span>Point Cloud AI</span>
+                        <span>Semantic Segmentation</span>
+                        <span>BIM Integration</span>
+                        <span>IFC Classification</span>
+                        <span>SketchUp Integration</span>
+                        <span>3D Processing</span>
+                        <span>Python</span>
+                        <span>Component Classification</span>
+                        <span>Workflow Automation</span>
+                        <span>Construction Tech</span>
+                        <span>Scan Essentials</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Recognition & Awards Section -->
+    <section id="accomplishments" class="accomplishments">
+        <div class="container">
+            <div class="recognition-header">
+                <h2 class="recognition-title">Recognition & Awards</h2>
+                <p class="recognition-subtitle">Innovation Leadership, Research Excellence, and Industry Impact</p>
+            </div>
+
+            <!-- Achievement Showcase -->
+            <div class="achievement-showcase">
+                
+                <!-- Intellectual Property Portfolio -->
+                <div class="achievement-category ip-portfolio">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Intellectual Property</h3>
+                            <p>Patent Portfolio in Computer Vision & AI</p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-grid">
+                        <div class="patent-item featured-patent" onclick="window.open('https://patents.justia.com/patent/12325982', '_blank')">
+                            <div class="patent-status published">Published</div>
+                            <div class="patent-content">
+                                <h4>Construction Site Orchestration Using Dynamic Computer Vision</h4>
+                                <p class="patent-role">Co-Inventor</p>
+                                <p class="patent-description">Revolutionary AI system for automated construction site management and orchestration</p>
+                                <div class="patent-meta">
+                                    <span class="patent-number">US Patent</span>
+                                    <span class="view-link">→ View Patent</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="patent-item" onclick="window.open('https://patents.justia.com/inventor/vishakaraj-shanmugavel', '_blank')">
+                            <div class="patent-status published">Filed & Awarded</div>
+                            <div class="patent-content">
+                                <h4>Acquisition-Time Noise Removal from Point Clouds Captured with 3D Scanners</h4>
+                                <p class="patent-role">Lead Inventor</p>
+                                <p class="patent-description">Advanced algorithms for real-time point cloud quality enhancement during 3D scanning acquisition – improves quality and clarity of raw scans</p>
+                                <div class="patent-meta">
+                                    <span class="patent-number">US Patent</span>
+                                    <span class="view-link">→ View Portfolio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Global Speaking Engagements -->
+                <div class="achievement-category speaking-engagements">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Global Speaking Engagements</h3>
+                            <p>International Conferences & Industry Events</p>
+                        </div>
+                    </div>
+                    
+                    <div class="speaking-timeline">
+                        <!-- NVIDIA GTC -->
+                        <div class="timeline-item nvidia-item" onclick="window.open('https://www.nvidia.com/en-us/on-demand/session/gtcspring22-s41484/', '_blank')">
+                            <div class="timeline-image">
+                                <img src="Nvidia-GTC.png" alt="NVIDIA GTC 2022" />
+                                <div class="image-overlay">
+                                    <i class="fas fa-play-circle"></i>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-badge nvidia">Featured Speaker</div>
+                                <h4>NVIDIA GTC 2022</h4>
+                                <p class="timeline-subtitle">Global Technology Conference</p>
+                                <p class="timeline-description">Presented "Deep Learning using NVIDIA Omniverse for Synthetic 3D Point Cloud Generation" to international AI community</p>
+                                <div class="timeline-stats">
+                                    <span><i class="fas fa-users"></i> 40-min Session</span>
+                                    <span><i class="fas fa-video"></i> Available On-Demand</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Trimble TTC -->
+                        <div class="timeline-item trimble-item">
+                            <div class="timeline-image">
+                                <img src="ttc-presentation-2023.jpeg" alt="Trimble Technology Conference 2023" />
+                                <div class="image-overlay">
+                                    <i class="fas fa-mountain"></i>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-badge elite">Elite Invitation</div>
+                                <h4>Trimble Technology Conference 2023</h4>
+                                <p class="timeline-subtitle">Colorado Springs • Top 200 Engineers</p>
+                                <p class="timeline-description">Selected from global engineering organization to present deep learning innovations to leadership</p>
+                                <div class="timeline-stats">
+                                    <span><i class="fas fa-user-friends"></i> Exclusive Selection</span>
+                                    <span><i class="fas fa-award"></i> Technical Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- World Tunnel Congress -->
+                        <div class="timeline-item congress-item">
+                            <div class="timeline-image">
+                                <img src="World-tunnel-congress.png" alt="World Tunnel Congress 2025" />
+                                <div class="image-overlay">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-badge international">International</div>
+                                <h4>World Tunnel Congress 2025</h4>
+                                <p class="timeline-subtitle">Global Infrastructure Conference</p>
+                                <p class="timeline-description">First-author publication presentation on AI-powered tunneling quality control</p>
+                                <div class="timeline-stats">
+                                    <span><i class="fas fa-book"></i> Published Research</span>
+                                    <span><i class="fas fa-globe"></i> Global Impact</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Trimble Dimensions -->
+                        <div class="timeline-item dimensions-item">
+                            <div class="timeline-image">
+                                <img src="Trimble-dimensions.png" alt="Trimble Dimensions 2024" />
+                                <div class="image-overlay">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-badge industry">Industry Event</div>
+                                <h4>Trimble Dimensions 2024</h4>
+                                <p class="timeline-subtitle">Global User Conference</p>
+                                <p class="timeline-description">Showcased latest AI innovations to global user community and industry partners</p>
+                                <div class="timeline-stats">
+                                    <span><i class="fas fa-users"></i> Global Audience</span>
+                                    <span><i class="fas fa-rocket"></i> Innovation Showcase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Research & Publications -->
+                <div class="achievement-category research-excellence">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Research Excellence</h3>
+                            <p>Publications & Academic Leadership</p>
+                        </div>
+                    </div>
+                    
+                    <div class="research-grid">
+                        <div class="research-item publication-item" onclick="window.open('https://www.taylorfrancis.com/chapters/oa-edit/10.1201/9781003559047-57/improved-quality-control-modeling-drill-blast-tunneling-using-point-cloud-deep-learning-semantic-segmentation-case-study-norwegian-tunneling-shanmugavel-smith-torttila-niemann?context=ubx&refId=5443ab10-6907-45d0-8509-e84b9d860234', '_blank')">
+                            <div class="research-badge first-author">First Author</div>
+                            <div class="research-content">
+                                <h4>Tunnelling into a Sustainable Future</h4>
+                                <p class="research-venue">Taylor & Francis, 2025</p>
+                                <p class="research-description">First-author peer-reviewed paper on AI-powered tunnel segmentation using deep learning. Presented at World Tunnel Congress 2025.</p>
+                                <div class="research-impact">
+                                    <span class="impact-metric">
+                                        <i class="fas fa-book-open"></i>
+                                        Academic Publication
+                                    </span>
+                                    <span class="impact-metric">
+                                        <i class="fas fa-industry"></i>
+                                        World Tunnel Congress
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="research-item mentorship-item" onclick="window.open('https://aaltodoc.aalto.fi/items/ac1a6427-7c79-4316-aa44-5661351362cf', '_blank')">
+                            <div class="research-badge advisor">Thesis Advisor</div>
+                            <div class="research-content">
+                                <h4>Master's Thesis Supervision</h4>
+                                <p class="research-venue">Aalto University, 2024</p>
+                                <p class="research-description">Advised a master's thesis on "Using AI Foundation Models and Vector Databases for Understanding Construction Site Digital Twins"</p>
+                                <div class="research-impact">
+                                    <span class="impact-metric">
+                                        <i class="fas fa-user-graduate"></i>
+                                        Academic Mentorship
+                                    </span>
+                                    <span class="impact-metric">
+                                        <i class="fas fa-brain"></i>
+                                        AI Foundation Models
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Corporate Recognition -->
+                <div class="achievement-category corporate-recognition">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Corporate Recognition</h3>
+                            <p>Innovation Awards & Executive Impact</p>
+                        </div>
+                    </div>
+                    
+                    <div class="recognition-grid">
+                        <div class="recognition-item award-item">
+                            <div class="award-visual">
+                                <div class="award-icon">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <div class="award-glow"></div>
+                            </div>
+                            <div class="recognition-content">
+                                <div class="recognition-badge winner">Award Winner</div>
+                                <h4>Trimble Innovation Award</h4>
+                                <p class="recognition-year">2024</p>
+                                <p class="recognition-description">Recognized for groundbreaking work in deep learning-based outdoor 3D point cloud segmentation</p>
+                                <div class="recognition-impact">
+                                    <span><i class="fas fa-lightbulb"></i> Technical Innovation</span>
+                                    <span><i class="fas fa-chart-line"></i> Business Impact</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="recognition-item executive-item">
+                            <div class="award-visual">
+                                <div class="award-icon">
+                                    <i class="fas fa-users-cog"></i>
+                                </div>
+                                <div class="executive-pattern"></div>
+                            </div>
+                            <div class="recognition-content">
+                                <div class="recognition-badge executive">Executive Presentation</div>
+                                <h4>Trimble Board of Directors Presentation</h4>
+                                <p class="recognition-year">2024</p>
+                                <p class="recognition-description">Presented latest AI advancements in 3D point cloud perception to the Trimble Board of Directors</p>
+                                <div class="recognition-impact">
+                                    <span><i class="fas fa-chart-line"></i> Strategic Impact</span>
+                                    <span><i class="fas fa-users-cog"></i> Executive Leadership</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Master of Science in Industrial Engineering</h3>
+                        <h4>Operations Research Specialization</h4>
+                        <div class="education-details">
+                            <span class="university">The Ohio State University</span>
+                            <span class="year">May 2019</span>
+                            <span class="gpa">GPA: 3.95/4.0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Engineering in Mechanical Engineering</h3>
+                        <div class="education-details">
+                            <span class="university">Anna University</span>
+                            <span class="year">May 2017</span>
+                            <span class="gpa">GPA: 8.75/10.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in discussing new opportunities, innovative AI projects, and potential collaborations in machine learning and computer vision.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:s.vishakaraj@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>s.vishakaraj@gmail.com</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/vishakaraj-shanmugavel/" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>Professional Profile</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Vishakaraj Shanmugavel. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

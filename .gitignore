@@ -1,0 +1,7 @@
+# Exclude PDF files
+*.pdf
+
+# Common ignores
+.DS_Store
+Thumbs.db
+
