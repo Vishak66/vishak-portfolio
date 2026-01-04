@@ -224,11 +224,11 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--bg-tertiary);
+    background: rgba(10, 14, 26, 0.95);
     backdrop-filter: blur(20px);
     z-index: 1000;
     transition: all 0.3s ease;
-    box-shadow: var(--shadow-primary);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     border-bottom: 2px solid var(--primary-base);
 }
 
@@ -259,7 +259,7 @@ a {
 }
 
 .nav-link {
-    color: var(--text-secondary);
+    color: #ffffff;
     font-weight: 500;
     transition: all 0.3s ease;
     position: relative;
