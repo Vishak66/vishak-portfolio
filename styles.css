@@ -3351,7 +3351,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: #f8fafc;
+    background: var(--bg-secondary);
 }
 
 .contact-content {
@@ -3363,12 +3363,12 @@ section {
 }
 
 .contact-info h3 {
-    color: #333;
+    color: var(--text-hero);
     margin-bottom: 1rem;
 }
 
 .contact-info p {
-    color: #666;
+    color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 2rem;
 }
@@ -3384,48 +3384,57 @@ section {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background: white;
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    transition: transform 0.3s ease;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-soft);
+    text-decoration: none;
 }
 
 .contact-method:hover {
     transform: translateX(5px);
+    background: var(--bg-glass-hover);
+    border-color: var(--primary-light);
 }
 
 .contact-method i {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--primary-gradient);
     color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: var(--shadow-primary);
 }
 
 .contact-method h4 {
-    color: #333;
+    color: var(--text-hero);
     margin-bottom: 0.2rem;
     font-size: 1rem;
 }
 
 .contact-method p {
-    color: #666;
+    color: var(--text-secondary);
     margin-bottom: 0;
     font-size: 0.9rem;
 }
 
 .contact-form {
-    background: white;
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-soft);
 }
 
 .contact-form h3 {
-    color: #333;
+    color: var(--text-hero);
     margin-bottom: 1.5rem;
 }
 
@@ -3437,23 +3446,26 @@ section {
 .form-group textarea {
     width: 100%;
     padding: 1rem;
-    border: 2px solid #e2e8f0;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     font-size: 1rem;
     font-family: inherit;
-    transition: border-color 0.3s ease;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
     resize: vertical;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: var(--primary-light);
+    background: rgba(255, 255, 255, 0.08);
 }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-    color: #94a3b8;
+    color: var(--text-muted);
 }
 
 /* Footer */
